@@ -4,8 +4,14 @@ public class droolsTest {
 
     public static void main(String[] args) {
 
-        droolsService droolsService = new droolsService();
+       /*droolsService droolsService = new droolsService();
 
-        droolsService.fireRule();
+//         droolsService.fireRule();
+        try{
+
+            droolsService.configRule();
+        }catch (IOException e){
+            e.printStackTrace();
+        } */
     }
 }
